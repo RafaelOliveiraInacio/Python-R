@@ -41,3 +41,28 @@ library(ggplot2)
 
 x = iris['Sepal.Width']
 x[50:100,0]
+
+##6
+
+x1 = c(1,2,3,4,5)
+x2 = c(6,7,8,9,10)
+
+for(y in 1:5){
+  r = x1[y] + x2[y]
+  print(r)
+}
+
+##7
+CO2
+
+length(colnames(CO2))
+length(rownames(CO2))
+colnames(CO2)
+rownames(CO2)
+
+
+
+
+
+
+
